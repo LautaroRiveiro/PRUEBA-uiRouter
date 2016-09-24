@@ -23,6 +23,10 @@ app.config(function($stateProvider, $urlRouterProvider){
             url: '',
             templateUrl: 'templates/inicio.html'
         })
+        .state('abm', {
+        	url: '/abm',
+        	templateUrl: 'templates/abm.html'
+        })
 	
 	$urlRouterProvider.otherwise('');
 });
