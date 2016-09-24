@@ -27,6 +27,10 @@ app.config(function($stateProvider, $urlRouterProvider){
         	url: '/abm',
         	templateUrl: 'templates/abm.html'
         })
+        .state('abm.alta', {
+        	url: '/alta',
+        	templateUrl: 'templates/alta.html'
+        })
 	
 	$urlRouterProvider.otherwise('');
 });
